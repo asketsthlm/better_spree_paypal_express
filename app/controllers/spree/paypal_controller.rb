@@ -1,5 +1,5 @@
 module Spree
-  class PaypalController < StoresController
+  class PaypalController < Spree::StoreController
 
     def express
       order = current_order || raise(ActiveRecord::RecordNotFound)
