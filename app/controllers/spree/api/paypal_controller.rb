@@ -1,7 +1,7 @@
 module Spree
   module Api
     class PaypalController < Spree::Api::BaseController
-      ssl_allowed
+      #ssl_allowed
 
       def express
 
